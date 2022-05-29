@@ -1,0 +1,365 @@
+/*header section*/
+body{
+    margin:auto;
+  background-color: rgba(248, 215, 252, 0.786);
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+height: 60px;
+width: 100%;
+border: 3px solid rgb(255, 141, 141);
+background-color: rgb(255, 211, 211);
+}
+/*Socialmedia section*/
+
+#icon{
+    float: left;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-weight: bold;
+
+}
+#socialmedia{
+    
+    float: right;
+
+}
+
+.slogo{
+    height: 40px;
+    width: 40px;
+}
+
+
+/*Search Section*/
+
+#search{
+    background-color: rgba(114, 236, 196, 0.686);
+    height: 400px;
+    width: 100%;
+    background-image: url('image/bg4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#content{
+    width: 80%;
+    height: 350px;
+   /* border: 2px groove rgb(255, 239, 239) ;*/
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#logo{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    color: azure;
+    margin: auto;
+    background-color: rgb(201, 94, 94);
+
+}
+
+#logo>span{
+    font-size: 80px;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#heading{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    color: azure;
+}
+
+.dropdown{
+    height: 60px;
+    width: 60%;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+select{
+    height: 50px;
+    width: 35%;
+    font-size: 20px;
+    text-align: center;
+}
+.reselect{
+    width: 55%;
+}
+
+/*quick section*/   
+
+#quicksearch{
+ display: inline-block;
+  width: 80%;
+ /* border: 2px groove maroon;*/
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#quickheading{
+
+   display: block;
+   font-size: 35px;
+   color: brown;
+   font-weight: bold;
+   margin-top: 2px;
+   margin-left: 2%;
+}
+#quicksubheading{
+
+    display: block;
+    font-size: 20px;
+    color: rgb(66, 0, 128);
+    line-height: 2;
+    margin-left: 2%;
+}
+
+.boxcontainer{
+    height: 180px;
+    width: 30%;
+    /*border: 2px groove #d87093; */
+    box-shadow: 3px 3px 5px #d8709372;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.boxcomponent1{
+    width: 50%;
+    height: 180px;
+    float: left;
+
+}
+.boxcomponent1 >img{
+    width: 100%;
+    height: 180px;
+}
+.boxcomponent2{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.componentHeading >a{
+    color: rgb(22, 147, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.componentsubheading{
+    font-size: 12px;
+    color: rgb(7, 73, 7);
+}
+/*footer section*/
+footer{
+    margin-top: 3%;
+    height: 120px;
+    width: 100%;
+    background-color: rgba(230, 203, 255, 0.714);
+    
+}
+#foottext{
+    text-align: center;
+    padding-top: 10px;
+   
+}
+
+.footdiv{
+    float: left;
+    height: 60px;
+    width: 33%;
+    text-align: center;
+    border-right: 2px solid black;
+    margin-top: 1px;
+    
+}
+.footdiv >a{
+    display: block;
+}
+
+
+@media screen and (max-width:1600px) {
+    body{
+        background-color:rgba(253, 206, 241, 0.478)
+    }
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        background-color:rgba(200, 251, 201, 0.612)
+    }
+    .dropdown {
+       
+        width: 100%;
+        margin-left: 5%;
+    }
+    #logo>span{
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+    }
+
+    #heading{
+        font-size: 60px;
+    }
+    select {
+        width: 43%;
+    }
+    .reselect {
+        width: 43%;
+    }
+        
+    
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        background-color: rgba(169, 168, 250, 0.511)
+    }
+    #logo>span {
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    #heading {
+        font-size: 52px;
+    }
+    .dropdown {
+        width: 100%;
+        margin-left: 6%;
+    }
+    select {
+        width: 45%;
+    }
+    .reselect {
+        width: 45%;
+    }
+    #quicksearch{
+        margin-left: 11%;
+    }
+
+    .boxcontainer{
+        width: 45%;
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+    body{
+        background-color: rgba(255, 161, 149, 0.229)
+    }
+    #logo>span {
+        margin-left: 4%;
+        margin-top: 4%;
+    }
+
+    .boxcontainer{
+        width: 95%;
+    }
+    
+    .boxcomponent2{
+        margin-top: 10%;
+       
+    }
+    .dropdown {
+        width: 100%;
+        margin-left: 3%;
+    }
+    select {
+      width: 45%;
+    }
+   .reselect {
+        width: 50%;
+      }
+    
+
+
+}
+
+@media screen and (max-width:750px) {
+    body{
+        background-color: rgba(242, 170, 255, 0.229)
+    }
+
+     
+    #logo>span {
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    #heading {
+        font-size: 44px;
+    }
+      #quickheading{
+        font-size: 25px ;
+    }
+    #quicksubheading {
+       
+        font-size: 17px;
+    }
+    .dropdown {
+       
+        width: 100%;
+        margin-top: 4%;
+        margin-left: 0%;
+    }
+    select {
+        font-size: 24px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .reselect {
+        width: 100%;
+        font-size: 24px;
+        
+    }
+    footer {
+        margin-top: 10%;
+        height: 250px;
+    }
+
+    .footdiv{
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+    
+
+}
+@media screen and (max-width:550px) {
+    body{
+        background-color: rgba(242, 170, 255, 0.229)
+    }
+    #quickheading{
+        font-size: 25px ;
+    }
+    #quicksubheading {
+       
+        font-size: 17px;
+    }
+    #logo>span {
+    
+        margin-left: 6%;
+        margin-top: 6%;
+    }
+    footer {
+        margin-top: 10%;
+        height: 250px;
+    }
+
+    .footdiv{
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+
+}
+
