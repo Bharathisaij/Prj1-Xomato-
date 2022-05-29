@@ -116,6 +116,10 @@ select{
    margin-top: 2px;
    margin-left: 2%;
 }
+#quickheading:hover{
+    font-size: 40px;
+    color: rgb(42, 46, 165);
+}
 #quicksubheading{
 
     display: block;
@@ -125,6 +129,7 @@ select{
     margin-left: 2%;
 }
 
+
 .boxcontainer{
     height: 180px;
     width: 30%;
@@ -133,6 +138,25 @@ select{
     float: left;
     margin-left: 2%;
     margin-top: 2%;
+    animation: dance 10s infinite; /*animation loops inifinte*/
+}
+
+/*animation keyframes */
+@keyframes dance{
+    0% {transform: skewX(-5deg)}
+    25% {transform: skewX(7deg)}
+    50% {transform: skewX(-5deg)}
+    75% {transform: scale(1.03)} /*here at 60% of the time it scales */
+    100% {transform: skewX(-5deg)}
+
+}
+/*animation styles transform has different styles */
+.boxcontainer:hover{
+    transform: scale(1.05);
+   /* transform: skewX(15deg);*/
+    /*transform: skewY(7deg);*/
+    /*transform: rotate(11deg);*/
+    /*transform: translate(50px, 50px);*/
 }
 
 .boxcomponent1{
